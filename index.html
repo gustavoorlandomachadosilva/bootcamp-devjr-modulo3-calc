@@ -11,16 +11,17 @@
         <div class="calc">
             <img src="./images/calculate_black_48dp.svg" alt="ícone da calculadora">
             <h1>Calculadora</h1>
-            <input placeholder="Digite um número" type="number">
-            <input placeholder="Digite um número" type="number">
+            <input placeholder="Digite um número" type="number" id="num1">
+            <input placeholder="Digite um número" type="number" id="num2">
             <div>
-                <button>+</button>
+                <button onclick="calc()">+</button>
             </div>
-            <input type="text" readonly>
+            <input type="text" readonly id="output">
         </div>
         <div class="history">
 
         </div>
     </div>
+    <script src="./javascript.js"></script>
 </body>
 </html>
