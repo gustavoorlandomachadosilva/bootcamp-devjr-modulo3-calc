@@ -13,8 +13,11 @@
             <h1>Calculadora</h1>
             <input placeholder="Digite um número" type="number" id="num1">
             <input placeholder="Digite um número" type="number" id="num2">
-            <div>
-                <button onclick="calc()">+</button>
+            <div class="buttons">
+                <button onclick="calc('+')">+</button>
+                <button onclick="calc('-')">-</button>
+                <button onclick="calc('*')">*</button>
+                <button onclick="calc('/')">/</button>
             </div>
             <input type="text" readonly id="output">
         </div>

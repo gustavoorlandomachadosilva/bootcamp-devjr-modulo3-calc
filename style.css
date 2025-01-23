@@ -27,6 +27,7 @@ body{
 
 input{
     height: 22px;
+    width: 290px;
     padding: 8px;
     font-size: 1.2rem;
     margin: 15px 70px;
@@ -48,4 +49,9 @@ button{
     font-size: 1.2rem;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    gap: 5px;
 }
