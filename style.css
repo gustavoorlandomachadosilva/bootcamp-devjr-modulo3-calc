@@ -4,6 +4,7 @@ body{
 
 .container{
     width: 900px;
+    height: 500px;
     background-color: #d3d3d3;
     margin: auto;
     display: flex;
@@ -25,6 +26,11 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
 }
 
+.calc-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
 input{
     height: 22px;
     width: 290px;
@@ -32,6 +38,7 @@ input{
     font-size: 1.2rem;
     margin: 15px 70px;
     border-radius: 5px;
+    text-align: right;
 }
 
 input[type=number]:focus{
@@ -62,4 +69,15 @@ button{
     width: 400px;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.history-title{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.last-operations{
+    text-align: right;
+    padding-right: 20px;
 }

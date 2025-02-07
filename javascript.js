@@ -19,7 +19,7 @@ function calc(operacao) {
    document.getElementById("output").value = resultado;
 
    // Criando um novo elemento de histórico
-   var newHistory = document.createElement("div");
+   var newHistory = document.createElement("p");
    newHistory.textContent = `${num1} ${operacao} ${num2} = ${resultado}`;
 
    var history = document.getElementById("history");
