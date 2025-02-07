@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="calc">
-            <img src="./images/calculate_black_48dp.svg" alt="ícone da calculadora">
+            <object data="./images/calculate_black_48dp.svg" type="image/svg+xml"></object>
             <h1>Calculadora</h1>
             <input placeholder="Digite um número" type="number" id="num1">
             <input placeholder="Digite um número" type="number" id="num2">
@@ -22,7 +22,15 @@
             <input type="text" readonly id="output">
         </div>
         <div class="history">
-
+            <div class="history-title">
+                Histórico
+            </div>
+            <div class="last-operations">
+                10 últimas operações:
+                <div id="history">
+                    
+                </div>
+            </div>
         </div>
     </div>
     <script src="./javascript.js"></script>
